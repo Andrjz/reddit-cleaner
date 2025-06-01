@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reddit Cleaner</title>
+  <link rel="icon" href="icon.png">
+  <style>
+    :root {
+      --primary-color: #ff4500;
+      --secondary-color: #5f99cf;
+      --text-secondary: #787c7e;
+      --border-radius: 8px;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      width: 360px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: var(--primary-color);
+      margin: 0 0 10px 0;
+    }
+
+    .description {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    label {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 6px 0 16px;
+      border-radius: var(--border-radius);
+      border: 1px solid #ccc;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      flex: 1;
+      padding: 10px;
+      font-weight: bold;
+      border: none;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    #startBtn {
+      background: var(--primary-color);
+      color: white;
+    }
+
+    #pauseBtn {
+      background: #f0f0f0;
+      color: #222;
+    }
+
+    .status {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #555;
+    }
+
+    .counter {
+      margin-top: 10px;
+      font-size: 22px;
+      color: var(--primary-color);
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reddit Cleaner</h1>
+    <p class="description">Remove all your Reddit comments and posts securely. Enter your Reddit username to begin.</p>
+    <label for="username">Reddit Username</label>
+    <input type="text" id="username" placeholder="myusername" />
+    <div class="buttons">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+    </div>
+    <div class="status" id="statusMessage">Status: Ready</div>
+    <div class="counter" id="counter">0</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

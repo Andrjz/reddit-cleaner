@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Cleaner",
+  "version": "3.1",
+  "description": "Delete Reddit posts/comments with a clean UI and pause/resume support.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://old.reddit.com/user/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://old.reddit.com/user/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
