@@ -31,6 +31,7 @@
 3. Click **Start** – a new tab will open your profile overview.
 4. The extension will automatically begin deleting.
 5. Use the **Pause** button at any time to stop the process.
+6. If it stops working after pausing, delete the extension and upload it again.
 
 ---
 
