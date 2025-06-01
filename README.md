@@ -10,7 +10,7 @@
 
 - 🧹 Automatically deletes all posts and comments
 - ⏸️ Pause and resume at any time
-- 🔢 Live counter of deleted items per page.
+- 🔢 Live counter of deleted items per page
 - ✅ Secure: runs in your browser, no third parties login required
 - 🎨 Clean, modern UI
 - 🧠 Remembers your username and session state
