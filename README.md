@@ -2,6 +2,8 @@
 
 **Reddit Cleaner** is a Chrome extension that allows you to bulk delete all your Reddit comments and posts directly from your user overview on [old.reddit.com](https://old.reddit.com).
 
+![Reddit Cleaner Screenshot](screenshot.png)
+
 ---
 
 ## ✨ Features
