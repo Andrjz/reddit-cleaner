@@ -19,7 +19,7 @@
 
 ## 📦 Installation
 
-(Download the zip, extract the folder and drag it to the chrome://extensions/ page)
+(Download the zip, extract the folder and drag it to the chrome://extensions page)
 
 1. Clone or download this repository.
 2. Go to `chrome://extensions/` in your browser.
