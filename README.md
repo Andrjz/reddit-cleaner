@@ -11,7 +11,7 @@
 - 🧹 Automatically deletes all posts and comments
 - ⏸️ Pause and resume at any time
 - 🔢 Live counter of deleted items
-- ✅ Secure: runs in your browser, no login required
+- ✅ Secure: runs in your browser, no third parties login required
 - 🎨 Clean, modern UI
 - 🧠 Remembers your username and session state
 
