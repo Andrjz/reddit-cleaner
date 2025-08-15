@@ -43,9 +43,3 @@
 
 This tool is client-side only and requires no login or API tokens.  
 Use at your own risk – deletions are permanent.
-
----
-
-## 📄 License
-
-MIT License
